@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!--encabezado-->
+    <?php include 'views/navegador.php' ?>
+    <!--contenedor-->
+    
+    <?php include 'controller/routing.php' ?>
+    <!--Pie de pagina-->
+    <?php include 'views/footer.php' ?>
     
 </body>
 </html>
